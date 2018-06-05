@@ -17,8 +17,14 @@ h1 {
 
 h2 {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
-  	font-weight: 600;
-  	letter-spacing: -1.5px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+
 }
 
 .clear {
@@ -77,5 +83,9 @@ h2 {
   	font-style: italic;
   	text-align: right;
   	font-size: 10px;
+}
+
+::selection{
+  background-color: #f84342;
 }
 
